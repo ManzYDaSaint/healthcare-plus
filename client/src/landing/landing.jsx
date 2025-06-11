@@ -165,12 +165,12 @@ export default function HealthCarePlusLanding() {
               <a href="#pricing" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Pricing
               </a>
-              <button className="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-600 hover:text-white transition-colors">
+              <Link to={"/sign-in"} className="border border-blue-600 text-blue-600 px-4 py-2 rounded hover:bg-blue-600 hover:text-white transition-colors">
                 Sign In
-              </button>
-              <button className="bg-gradient-to-r from-blue-600 to-green-600 text-white px-4 py-2 rounded hover:from-blue-700 hover:to-green-700 transition-colors">
+              </Link>
+              <Link to={"/trial"} className="bg-gradient-to-r from-blue-600 to-green-600 text-white px-4 py-2 rounded hover:from-blue-700 hover:to-green-700 transition-colors">
                 Start Free Trial
-              </button>
+              </Link>
             </nav>
 
             {/* Mobile Menu Button */}
